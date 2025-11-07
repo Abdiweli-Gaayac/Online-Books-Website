@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse our complete collection of books at BookStore. Find your next favorite read from adventure, mystery, romance, and more.">
+    <title>All Books - BookStore</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">BookStore</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="books.html" class="active">Books</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section" aria-labelledby="all-books">
+            <h1 id="all-books" class="section-title">All Books</h1>
+            <div class="books-grid">
+                <!-- Book 1 -->
+                <article class="book-card">
+                    <figure class="book-image-container">
+                        <img src="https://i.pinimg.com/736x/95/c6/bf/95c6bf2159a86dc0e851a2c9f0fa6179.jpg" 
+                             alt="Book cover: The Great Adventure by John Smith" 
+                             class="book-image">
+                    </figure>
+                    <div class="book-info">
+                        <h2 class="book-title">The Great Adventure</h2>
+                        <p class="book-author">By John Smith</p>
+                        <p class="book-short-desc">An epic journey through uncharted lands filled with mystery and excitement.</p>
+                        
+                        <input type="checkbox" id="details-1" class="details-toggle" aria-label="Toggle book details">
+                        <label for="details-1" class="details-button">Show Book Details</label>
+                        
+                        <div class="book-full-details">
+                            <p class="book-full-desc">Join our hero on an extraordinary adventure across continents. This thrilling tale combines action, mystery, and heartwarming moments as the protagonist discovers ancient secrets and forms unlikely alliances. A must-read for adventure enthusiasts!</p>
+                            
+                            <input type="checkbox" id="buy-1" class="buy-toggle" aria-label="Toggle buy options">
+                            <label for="buy-1" class="buy-button">Buy Now</label>
+                            
+                            <div class="payment-options">
+                                <h3>Select Payment Method</h3>
+                                <div class="payment-method">
+                                    <input type="radio" name="payment-1" id="card-1" checked>
+                                    <label for="card-1">Credit/Debit Card</label>
+                                </div>
+                                <div class="payment-method">
+                                    <input type="radio" name="payment-1" id="paypal-1">
+                                    <label for="paypal-1">PayPal</label>
+                                </div>
+                                <div class="payment-method">
+                                    <input type="radio" name="payment-1" id="bank-1">
+                                    <label for="bank-1">Bank Transfer</label>
+                                </div>
+                                
+                                <input type="checkbox" id="confirm-1" class="confirm-toggle" aria-label="Confirm purchase">
+                                <label for="confirm-1" class="confirm-button">Confirm Purchase</label>
+                                
+                                <div class="confirmation-message" role="alert">
+                                    <p>✅ Purchase Confirmed!</p>
+                                    <p>Thank you for your purchase. Your order will be processed shortly.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Book 2 -->
+                <article class="book-card">
+                    <figure class="book-image-container">
+                        <img src="https://i.pinimg.com/736x/c6/b1/52/c6b15242db637cbd5a70e717af58ea1f.jpg" 
+                             alt="Book cover: Mystery of the Night by Jane Doe" 
+                             class="book-image">
+                    </figure>
+                    <div class="book-info">
+                        <h2 class="book-title">Mystery of the Night</h2>
+                        <p class="book-author">By Jane Doe</p>
+                        <p class="book-short-desc">A gripping mystery that will keep you guessing until the very end.</p>
+                        
+                        <input type="checkbox" id="details-2" class="details-toggle" aria-label="Toggle book details">
+                        <label for="details-2" class="details-button">Show Book Details</label>
+                        
+                        <div class="book-full-details">
+                            <p class="book-full-desc">When a series of strange events occur in a small town, detective Sarah must unravel the truth before it's too late. This page-turner combines suspense, intrigue, and unexpected twists that will leave you breathless.</p>
+                            
+                            <input type="checkbox" id="buy-2" class="buy-toggle" aria-label="Toggle buy options">
+                            <label for="buy-2" class="buy-button">Buy Now</label>
+                            
+                            <div class="payment-options">
+                                <h3>Select Payment Method</h3>
+                                <div class="payment-method">
+                                    <input type="radio" name="payment-2" id="card-2" checked>
+                                    <label for="card-2">Credit/Debit Card</label>
+                                </div>
+                                <div class="payment-method">
+                                    <input type="radio" name="payment-2" id="paypal-2">
+                                    <label for="paypal-2">PayPal</label>
+                                </div>
+                                <div class="payment-method">
+                                    <input type="radio" name="payment-2" id="bank-2">
+                                    <label for="bank-2">Bank Transfer</label>
+                                </div>
+                                
+                                <input type="checkbox" id="confirm-2" class="confirm-toggle" aria-label="Confirm purchase">
+                                <label for="confirm-2" class="confirm-button">Confirm Purchase</label>
+                                
+                                <div class="confirmation-message" role="alert">
+                                    <p>✅ Purchase Confirmed!</p>
+                                    <p>Thank you for your purchase. Your order will be processed shortly.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Book 3 -->
+                <article class="book-card">
+                    <figure class="book-image-container">
+                        <img src="https://i.pinimg.com/1200x/58/40/bb/5840bb3b17fd0a397760281ffb56cf8d.jpg" 
+                             alt="Book cover: Journey to Success by Robert Johnson" 
+                             class="book-image">
+                    </figure>
+                    <div class="book-info">
+                        <h2 class="book-title">Journey to Success</h2>
+                        <p class="book-author">By Robert Johnson</p>
+                        <p class="book-short-desc">Inspirational stories of perseverance and achievement against all odds.</p>
+                        
+                        <input type="checkbox" id="details-3" class="details-toggle" aria-label="Toggle book details">
+                        <label for="details-3" class="details-button">Show Book Details</label>
+                        
+                        <div class="book-full-details">
+                            <p class="book-full-desc">Discover the secrets of success through real-life stories of individuals who overcame challenges and achieved their dreams. This motivational guide provides practical advice and inspiring examples to help you on your own path to success.</p>
+                            
+                            <input type="checkbox" id="buy-3" class="buy-toggle" aria-label="Toggle buy options">
+                            <label for="buy-3" class="buy-button">Buy Now</label>
+                            
+                            <div class="payment-options">
+                                <h3>Select Payment Method</h3>
+                                <div class="payment-method">
+                                    <input type="radio" name="payment-3" id="card-3" checked>
+                                    <label for="card-3">Credit/Debit Card</label>
+                                </div>
+                                <div class="payment-method">
+                                    <input type="radio" name="payment-3" id="paypal-3">
+                                    <label for="paypal-3">PayPal</label>
+                                </div>
+                                <div class="payment-method">
+                                    <input type="radio" name="payment-3" id="bank-3">
+                                    <label for="bank-3">Bank Transfer</label>
+                                </div>
+                                
+                                <input type="checkbox" id="confirm-3" class="confirm-toggle" aria-label="Confirm purchase">
+                                <label for="confirm-3" class="confirm-button">Confirm Purchase</label>
+                                
+                                <div class="confirmation-message" role="alert">
+                                    <p>✅ Purchase Confirmed!</p>
+                                    <p>Thank you for your purchase. Your order will be processed shortly.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Book 4 -->
+                <article class="book-card">
+                    <figure class="book-image-container">
+                        <img src="https://i.pinimg.com/1200x/76/f2/ef/76f2ef5f3d0227c8d788abcd7b031273.jpg" 
+                             alt="Book cover: Ocean Dreams by Emily Brown" 
+                             class="book-image">
+                    </figure>
+                    <div class="book-info">
+                        <h2 class="book-title">Ocean Dreams</h2>
+                        <p class="book-author">By Emily Brown</p>
+                        <p class="book-short-desc">A beautiful tale of love and discovery set against the backdrop of the ocean.</p>
+                        
+                        <input type="checkbox" id="details-4" class="details-toggle" aria-label="Toggle book details">
+                        <label for="details-4" class="details-button">Show Book Details</label>
+                        
+                        <div class="book-full-details">
+                            <p class="book-full-desc">Follow the journey of a marine biologist who discovers a hidden world beneath the waves. This romantic and adventurous story explores themes of love, nature, and the mysteries of the deep blue sea.</p>
+                            
+                            <input type="checkbox" id="buy-4" class="buy-toggle" aria-label="Toggle buy options">
+                            <label for="buy-4" class="buy-button">Buy Now</label>
+                            
+                            <div class="payment-options">
+                                <h3>Select Payment Method</h3>
+                                <div class="payment-method">
+                                    <input type="radio" name="payment-4" id="card-4" checked>
+                                    <label for="card-4">Credit/Debit Card</label>
+                                </div>
+                                <div class="payment-method">
+                                    <input type="radio" name="payment-4" id="paypal-4">
+                                    <label for="paypal-4">PayPal</label>
+                                </div>
+                                <div class="payment-method">
+                                    <input type="radio" name="payment-4" id="bank-4">
+                                    <label for="bank-4">Bank Transfer</label>
+                                </div>
+                                
+                                <input type="checkbox" id="confirm-4" class="confirm-toggle" aria-label="Confirm purchase">
+                                <label for="confirm-4" class="confirm-button">Confirm Purchase</label>
+                                
+                                <div class="confirmation-message" role="alert">
+                                    <p>✅ Purchase Confirmed!</p>
+                                    <p>Thank you for your purchase. Your order will be processed shortly.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Book 5 -->
+                <article class="book-card">
+                    <figure class="book-image-container">
+                        <img src="https://i.pinimg.com/736x/1f/36/83/1f36838bf9dc401c25cd9dd1739217ee.jpg" 
+                             alt="Book cover: City Lights by Michael Wilson" 
+                             class="book-image">
+                    </figure>
+                    <div class="book-info">
+                        <h2 class="book-title">City Lights</h2>
+                        <p class="book-author">By Michael Wilson</p>
+                        <p class="book-short-desc">A modern urban story about finding yourself in the big city.</p>
+                        
+                        <input type="checkbox" id="details-5" class="details-toggle" aria-label="Toggle book details">
+                        <label for="details-5" class="details-button">Show Book Details</label>
+                        
+                        <div class="book-full-details">
+                            <p class="book-full-desc">Experience the vibrant energy of city life through the eyes of a young professional navigating career, relationships, and personal growth. This contemporary novel captures the essence of modern urban living with humor and heart.</p>
+                            
+                            <input type="checkbox" id="buy-5" class="buy-toggle" aria-label="Toggle buy options">
+                            <label for="buy-5" class="buy-button">Buy Now</label>
+                            
+                            <div class="payment-options">
+                                <h3>Select Payment Method</h3>
+                                <div class="payment-method">
+                                    <input type="radio" name="payment-5" id="card-5" checked>
+                                    <label for="card-5">Credit/Debit Card</label>
+                                </div>
+                                <div class="payment-method">
+                                    <input type="radio" name="payment-5" id="paypal-5">
+                                    <label for="paypal-5">PayPal</label>
+                                </div>
+                                <div class="payment-method">
+                                    <input type="radio" name="payment-5" id="bank-5">
+                                    <label for="bank-5">Bank Transfer</label>
+                                </div>
+                                
+                                <input type="checkbox" id="confirm-5" class="confirm-toggle" aria-label="Confirm purchase">
+                                <label for="confirm-5" class="confirm-button">Confirm Purchase</label>
+                                
+                                <div class="confirmation-message" role="alert">
+                                    <p>✅ Purchase Confirmed!</p>
+                                    <p>Thank you for your purchase. Your order will be processed shortly.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Book 6 -->
+                <article class="book-card">
+                    <figure class="book-image-container">
+                        <img src="https://i.pinimg.com/736x/93/ee/39/93ee397185f4ba8932c373798b558cce.jpg" 
+                             alt="Book cover: Mountain Peak by Sarah Davis" 
+                             class="book-image">
+                    </figure>
+                    <div class="book-info">
+                        <h2 class="book-title">Mountain Peak</h2>
+                        <p class="book-author">By Sarah Davis</p>
+                        <p class="book-short-desc">An inspiring story of climbing mountains both literal and metaphorical.</p>
+                        
+                        <input type="checkbox" id="details-6" class="details-toggle" aria-label="Toggle book details">
+                        <label for="details-6" class="details-button">Show Book Details</label>
+                        
+                        <div class="book-full-details">
+                            <p class="book-full-desc">Join a group of climbers as they attempt to conquer one of the world's highest peaks. This thrilling adventure story explores themes of teamwork, determination, and the human spirit's ability to overcome seemingly impossible challenges.</p>
+                            
+                            <input type="checkbox" id="buy-6" class="buy-toggle" aria-label="Toggle buy options">
+                            <label for="buy-6" class="buy-button">Buy Now</label>
+                            
+                            <div class="payment-options">
+                                <h3>Select Payment Method</h3>
+                                <div class="payment-method">
+                                    <input type="radio" name="payment-6" id="card-6" checked>
+                                    <label for="card-6">Credit/Debit Card</label>
+                                </div>
+                                <div class="payment-method">
+                                    <input type="radio" name="payment-6" id="paypal-6">
+                                    <label for="paypal-6">PayPal</label>
+                                </div>
+                                <div class="payment-method">
+                                    <input type="radio" name="payment-6" id="bank-6">
+                                    <label for="bank-6">Bank Transfer</label>
+                                </div>
+                                
+                                <input type="checkbox" id="confirm-6" class="confirm-toggle" aria-label="Confirm purchase">
+                                <label for="confirm-6" class="confirm-button">Confirm Purchase</label>
+                                
+                                <div class="confirmation-message" role="alert">
+                                    <p>✅ Purchase Confirmed!</p>
+                                    <p>Thank you for your purchase. Your order will be processed shortly.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 BookStore. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook">📘</a>
+                <a href="#" aria-label="Twitter">🐦</a>
+                <a href="#" aria-label="Instagram">📷</a>
+                <a href="#" aria-label="LinkedIn">💼</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
